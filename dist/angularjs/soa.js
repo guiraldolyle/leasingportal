@@ -1,0 +1,1 @@
+window.myApp.controller('soa-controller', function($scope, $http) {});

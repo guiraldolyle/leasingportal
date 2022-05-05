@@ -1,0 +1,114 @@
+{
+    "packages": [
+        {
+            "name": "eeshiro/decimal-to-word",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eeshiro/decimal-to-word.git",
+                "reference": "e45a0a1783d4c7f654127a3bdc9b6adbe73ef63f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eeshiro/decimal-to-word/zipball/e45a0a1783d4c7f654127a3bdc9b6adbe73ef63f",
+                "reference": "e45a0a1783d4c7f654127a3bdc9b6adbe73ef63f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "time": "2021-03-04T06:08:37+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "DecimalToWord\\": "src/DecimalToWord/"
+                },
+                "files": [
+                    "src/DecimalToWord.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eeshiro Deku",
+                    "email": "eeshiro.deku@gmail.com"
+                }
+            ],
+            "description": "Decimal to word converter for monetary values",
+            "homepage": "https://github.com/eeshiro/decimal-to-word",
+            "keywords": [
+                "decimal-to-word",
+                "money-words"
+            ],
+            "support": {
+                "issues": "https://github.com/eeshiro/decimal-to-word/issues",
+                "source": "https://github.com/eeshiro/decimal-to-word/tree/v1.0.0"
+            },
+            "install-path": "../eeshiro/decimal-to-word"
+        },
+        {
+            "name": "eeshiro/file-upload",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eeshiro/file-upload.git",
+                "reference": "59f649ba781450786d15d57a3aa69fdfe30a821d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eeshiro/file-upload/zipball/59f649ba781450786d15d57a3aa69fdfe30a821d",
+                "reference": "59f649ba781450786d15d57a3aa69fdfe30a821d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "time": "2021-03-05T08:43:22+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FileUpload\\": "src/FileUpload/"
+                },
+                "files": [
+                    "src/FileUpload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eeshiro Deku",
+                    "email": "eeshiro.deku@gmail.com"
+                }
+            ],
+            "description": "Handles http file upload request from form data",
+            "homepage": "https://github.com/eeshiro/file-upload",
+            "keywords": [
+                "decimal-to-word",
+                "money-words"
+            ],
+            "support": {
+                "issues": "https://github.com/eeshiro/file-upload/issues",
+                "source": "https://github.com/eeshiro/file-upload/tree/v1.0.0"
+            },
+            "install-path": "../eeshiro/file-upload"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

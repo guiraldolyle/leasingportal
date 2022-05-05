@@ -1,0 +1,12 @@
+{
+    "name": "eeshiro/agc-pms",
+    "description": "leasing system",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "eeshiro/file-upload": "^1.0",
+        "eeshiro/decimal-to-word": "^1.0",
+        "sendinblue/api-v3-sdk": "7.3.0"
+    }
+}

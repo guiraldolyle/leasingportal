@@ -1,0 +1,29 @@
+{
+    "name": "eeshiro/file-upload",
+    "version" : "1.0.0",
+    "description": "Handles http file upload request from form data",
+    "keywords": ["decimal-to-word","money-words"],
+    "homepage": "https://github.com/eeshiro/file-upload",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eeshiro Deku",
+            "email": "eeshiro.deku@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+     "autoload": {
+        "psr-4": {
+          "FileUpload\\": "src/FileUpload/"
+        },
+        "files": ["src/FileUpload.php"]
+    },
+    "require": {
+        "php": ">=5.4.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}

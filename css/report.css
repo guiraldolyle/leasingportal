@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+    font-size:11px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.store_name, .title{font-size:10px; font-weight: bold;}
+
+
+.aging-title{font-size: 14px; font-weight: bold}
+.sub-header{font-weight: normal}
